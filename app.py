@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, request
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 
 app = Flask(__name__)
